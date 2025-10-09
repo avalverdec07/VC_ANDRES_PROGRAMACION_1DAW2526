@@ -24,7 +24,7 @@ public class Perro {
 		raza = r;
 	}
 	
-	
+
 	public void ladrar() {
 		System.out.println(nombre + " está ladrando: ");
 		System.out.println("Guau Guau");
@@ -36,7 +36,7 @@ public class Perro {
 		Perro mascota = new Perro();
 		Perro caza = new Perro();
 		
-		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in); 	    
 		
 		
 		mascota.setNombre("Recesvinto");
