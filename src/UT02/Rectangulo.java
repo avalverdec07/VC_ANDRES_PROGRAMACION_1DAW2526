@@ -29,7 +29,17 @@ public class Rectangulo {
 		miParcela.setAltura(4.7);
 		
 		System.out.printf("El área de mi parcela es de %.2f metros cuadrados", miParcela.calcularArea());
+		System.out.println();
+		
+		String s = "Hola Mundo.";
+		System.out.println(s.replaceAll("o","a")); // usando regex -> " Hola Java "
+
 	
+		
+		System.out.println("El resultado de 7 % 3 es: "+7%3); 
+		
+		
+		
 	}
 
 }
