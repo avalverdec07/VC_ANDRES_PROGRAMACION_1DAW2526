@@ -15,6 +15,18 @@ public class Perro {
 	private String nombre;
 	private String raza;
 	
+	//Constructor
+	public Perro(String n, String r) {
+		nombre = n;
+		raza = r;
+		
+	}
+	
+	public Perro() {
+		nombre="";
+		raza="Perro sin raza";
+	}
+	
 	//Métodos
 	public void setNombre(String n) {
 		   nombre = n;
@@ -33,14 +45,14 @@ public class Perro {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Perro mascota = new Perro();
+		Perro mascota = new Perro("Recesvinto","Bichón Maltés");
 		Perro caza = new Perro();
 		
 		Scanner sc = new Scanner(System.in); 	    
 		
 		
-		mascota.setNombre("Recesvinto");
-		mascota.setRaza("Bichón maltés");
+		//mascota.setNombre("Recesvinto");
+		//mascota.setRaza("Bichón maltés");
 		
 		
 		caza.setNombre("Rambo");
