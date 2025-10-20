@@ -17,6 +17,7 @@ public class CuentaBancaria {
 		saldo=0;
 	}
 	
+	
 	public void setTitular(String nombre) {
 		titular = nombre;
 	}
