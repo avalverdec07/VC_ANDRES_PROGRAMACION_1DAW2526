@@ -23,6 +23,7 @@ public class EmpleadoPpal {
 		
 		operario.setSalario(salario);
 		
+		
 		operario.mostrarInfo();
 		
 		System.out.println("¿En cuánto quieres aumentar el salario al empleado?: ");
@@ -44,7 +45,6 @@ public class EmpleadoPpal {
 		
 		Empleado limpiador = new Empleado(nombre, salLimpiador);
 		limpiador.mostrarInfo();
-		
 		
 		
 		
