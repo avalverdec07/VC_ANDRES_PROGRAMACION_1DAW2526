@@ -1,4 +1,4 @@
-package UT03;
+package UT03.Apdo3_7;
 
 public class Actividad1_Apdo3_7 {
 
