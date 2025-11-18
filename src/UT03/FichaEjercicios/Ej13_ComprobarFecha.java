@@ -28,7 +28,7 @@ public class Ej13_ComprobarFecha {
 		int mes = teclado.nextInt();
 		System.out.println("Introduce el dia: ");
 		int dia = teclado.nextInt();
-		
+				
 		switch(mes) {
 		
 		case 1,3,5,7,8,10,12:
