@@ -2,7 +2,7 @@ package UT03.FichaEjercicios;
 
 import java.util.Scanner;
 
-public class Ej8_capicua {
+public class Ej08_capicua {
 
 	public static void main(String[] args) {
 		// Comprobar si un número es capicúa.
@@ -15,7 +15,6 @@ public class Ej8_capicua {
 		System.out.println("Introduce un número: ");
 		int numero=teclado.nextInt();
 		int original=numero;
-		int cifras=1;
 		int inverso=0;
 		
 		/* Ejemplo:
@@ -38,7 +37,6 @@ public class Ej8_capicua {
 		while(numero>10) {
 			inverso=(inverso*10)+numero%10;
 			numero=numero/10;
-			cifras++;
 		}
 		/* Finalmente, multiplicamos por 10 y le sumamos el último dígito que no queda
 		*  inverso=9665
@@ -52,7 +50,7 @@ public class Ej8_capicua {
 			
 		}
 		
-		
+		teclado.close();
 		
 
 	}

@@ -1,4 +1,5 @@
 package UT03.FichaEjercicios;
+
 import java.util.Scanner;
 
 public class Ej16_Jubilacion {
@@ -7,7 +8,7 @@ public class Ej16_Jubilacion {
 		// TODO Auto-generated method stub
 		
 		Scanner teclado = new Scanner(System.in);
-		
+		 
 		double ahorro_anual=0;
 		double ahorro_total=0;
 		
@@ -32,6 +33,7 @@ public class Ej16_Jubilacion {
 		}
 		
 		System.out.printf("Cuando te jubiles habrás ahorrado: %.2f euros.",ahorro_total);
+		teclado.close();
 	}
 
 }

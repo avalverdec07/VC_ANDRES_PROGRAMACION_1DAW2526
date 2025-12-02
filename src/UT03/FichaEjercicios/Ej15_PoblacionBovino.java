@@ -27,8 +27,8 @@ public class Ej15_PoblacionBovino {
 			System.out.println("Año: "+años);
 			caceres = caceres+(caceres*aumento/100);
 			badajoz = badajoz-(badajoz*reduccion/100);
-			System.out.println("La población de Cáceres es: "+caceres);
-			System.out.println("La población de Badajoz es: "+badajoz);
+			System.out.printf("La población de Cáceres es: %.2f \n", caceres);
+			System.out.printf("La población de Badajoz es: %.2f \n", badajoz);
 			años++;
 		}
 	}

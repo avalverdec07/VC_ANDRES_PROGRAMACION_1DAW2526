@@ -5,7 +5,7 @@ import java.util.Scanner;
  * teclado, que estará comprendido entre 0 y 99999.
  */
 
-public class Ej7_Cifras {
+public class Ej07_Cifras {
 
 	public static void main(String[] args) {
 		
@@ -18,5 +18,6 @@ public class Ej7_Cifras {
 			cifras++;
 		}
 		System.out.println("El número tiene "+cifras+" cifras.");
+		teclado.close();
 	}
 }
