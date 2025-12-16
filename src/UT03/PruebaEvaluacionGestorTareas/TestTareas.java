@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 public class TestTareas {
 
-	
 	public static void main(String[] args) {		
 
 	Scanner teclado = new Scanner(System.in);
@@ -100,14 +99,7 @@ public class TestTareas {
 		
 		switch(opcion) {
 			case 1:
-				System.out.println("Has elegido la opción 1:");
-				System.out.println("--- TAREAS REGISTRADAS ---");
-				System.out.println("Tarea 1: ");
-				miTarea1.mostrar();
-				System.out.println("Tarea 2: ");
-				miTarea2.mostrar();
-				System.out.println("Tarea 3: ");
-				miTarea3.mostrar();
+				mostrarTareas(miTarea1, miTarea2, miTarea3);
 				break;
 			case 2:
 				System.out.println("Has elegido la opción 2:");
@@ -191,16 +183,20 @@ public class TestTareas {
 			default:
 				System.out.println("Opción incorrecta.");
 		}
-	}while(opcion!=6);
+	}while(opcion!=6);	
+}// Fin del main
 	
-	
-	
-	
-		
-		
-	}
-	
-
-	
-
+//Ejemplo de método con código aparte 
+public static void mostrarTareas(Tarea miTarea1, Tarea miTarea2, Tarea miTarea3 ) {
+	System.out.println("Has elegido la opción 1:");
+	System.out.println("--- TAREAS REGISTRADAS ---");
+	System.out.println("Tarea 1: ");
+	miTarea1.mostrar();
+	System.out.println("Tarea 2: ");
+	miTarea2.mostrar();
+	System.out.println("Tarea 3: ");
+	miTarea3.mostrar();
 }
+	
+
+}// Fin de la clase TestTarea
