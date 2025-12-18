@@ -219,8 +219,28 @@ public class GestorMensajes {
 						}
 						break;
 					case 2:
+						System.out.println("El contenido original es: "+m2.getContenido());
+						titulo=titulo+Character.toUpperCase(m2.getContenido().charAt(0));
+						for(int i=1; i<m2.getContenido().length(); i++) {
+							if (m1.getContenido().charAt(i)==' ') {
+								titulo=titulo+' '+Character.toUpperCase(m2.getContenido().charAt(i+1));
+								i++;
+							} else {
+								titulo=titulo+m2.getContenido();
+							}
+						}
 						break;
 					case 3:
+						System.out.println("El contenido original es: "+m3.getContenido());
+						titulo=titulo+Character.toUpperCase(m3.getContenido().charAt(0));
+						for(int i=1; i<m3.getContenido().length(); i++) {
+							if (m3.getContenido().charAt(i)==' ') {
+								titulo=titulo+' '+Character.toUpperCase(m3.getContenido().charAt(i+1));
+								i++;
+							} else {
+								titulo=titulo+m3.getContenido();
+							}
+						}
 						break;
 					}
 					break;
