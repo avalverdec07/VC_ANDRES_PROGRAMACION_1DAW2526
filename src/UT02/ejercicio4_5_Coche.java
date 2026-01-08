@@ -9,12 +9,15 @@ public class ejercicio4_5_Coche {
 	 * Escribe un programa que cree dos coches, uno con cada constructor, y muestre
 	 * sus datos.
 	 */
-	
+
 		Coche miPrimerCoche = new Coche();
 		Coche miSegundoCoche = new Coche("Ferrari", 2025);
 		
 		miPrimerCoche.mostrarCoche();
 		miSegundoCoche.mostrarCoche();
+		
+		System.out.println(miPrimerCoche);
+		System.out.println(miSegundoCoche); 
 				
 	}
 

@@ -23,7 +23,4 @@ public class Coche {
 	public void mostrarCoche() {
 		System.out.println("La marca de este coche es: "+marca+", matriculado en el año "+año);
 	}
-	
-	
-	
 }

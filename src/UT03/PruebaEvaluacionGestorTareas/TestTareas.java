@@ -197,6 +197,5 @@ public static void mostrarTareas(Tarea miTarea1, Tarea miTarea2, Tarea miTarea3 
 	System.out.println("Tarea 3: ");
 	miTarea3.mostrar();
 }
-	
 
 }// Fin de la clase TestTarea
