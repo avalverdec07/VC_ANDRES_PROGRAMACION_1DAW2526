@@ -1,4 +1,4 @@
-package UT04.Apdo9_Ej2;
+package UT04.Apdo09.Ej002;
 
 public class Vehiculos {
 	
