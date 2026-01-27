@@ -13,18 +13,14 @@ public class EscanerPrecios {
 		// Pedimos los datos al usuario
 		System.out.println("Introduce 4 precios: ");
 		System.out.println("---------------------");
-		System.out.println("Introduce el precio 1: ");
-		precios[0]=teclado.nextDouble();
-		teclado.nextLine();
-		System.out.println("Introduce el precio 2: ");
-		precios[1]=teclado.nextDouble();
-		teclado.nextLine();
-		System.out.println("Introduce el precio 3: ");
-		precios[2]=teclado.nextDouble();
-		teclado.nextLine();
-		System.out.println("Introduce el precio 4: ");
-		precios[3]=teclado.nextDouble();
-		teclado.nextLine();
+
+
+		for(int i=0; i<4; i++) {
+			
+			System.out.println("Introduce el precio "+(i+1)+":");
+			precios[i]=teclado.nextDouble();
+			teclado.nextLine();
+		}
 		
 		//Recorremos el array para calcular la suma y el promedio
 		double suma=0;
