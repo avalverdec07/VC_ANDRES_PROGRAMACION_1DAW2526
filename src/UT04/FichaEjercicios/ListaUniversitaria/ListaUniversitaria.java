@@ -28,18 +28,9 @@ public class ListaUniversitaria {
 					switch(contadorEmpleados) {
 					case 0: 
 						System.out.println("Pasamos a crear el primer Empleado: ");
-						e1.setNombre();
-						e1.setApellido();
-						e1.setCodigoPostal();
-						e1.setDepartamento();
-						e1.setDireccion();
-						e1.setNumSegSocial();
-						e1.setSalario();
-						e1.setTelefono();
+						
 					}
 				}
-				
-				
 				
 				break;
 			case 2:
@@ -52,6 +43,7 @@ public class ListaUniversitaria {
 		
 		
 		
-	}
+	}while(opcion!=4);
 
+}
 }
