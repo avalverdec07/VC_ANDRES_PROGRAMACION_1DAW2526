@@ -1,4 +1,4 @@
-package UT05.Colecciones.ArrayList_Ficha_Ejercicios.Ej1_PlaylistSpotify;
+package UT05.Colecciones.ArrayList_Ficha_Ejercicios;
 
 public class VideoJuego implements Comparable {
 
@@ -52,6 +52,11 @@ public class VideoJuego implements Comparable {
 			}
 			//return this.titulo.compareTo(j.getTitulo());
 		}
+
+	
+		
+		
+		
 	
 
 	

@@ -1,4 +1,4 @@
-package UT05.Colecciones.ArrayList_Ficha_Ejercicios.Ej1_PlaylistSpotify;
+package UT05.Colecciones.ArrayList_Ficha_Ejercicios;
 
 import java.util.ArrayList;
 import java.util.List;
