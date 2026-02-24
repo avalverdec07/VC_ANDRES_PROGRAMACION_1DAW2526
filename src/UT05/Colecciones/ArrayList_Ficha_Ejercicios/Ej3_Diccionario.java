@@ -40,7 +40,7 @@ public class Ej3_Diccionario {
 				System.out.println("No sé traducir esa palabra. Dímelo tú:");
 				traduccion=entrada.nextLine();
 				diccionario.put(palabra, traduccion);
-				System.out.println("Gracias por enseñarme.");
+				System.out.println("Gracias por enseñarme. ");
 			}
 		}while(!palabra.equalsIgnoreCase("fin"));
 		
