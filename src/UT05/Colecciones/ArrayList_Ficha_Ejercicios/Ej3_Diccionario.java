@@ -20,11 +20,11 @@ public class Ej3_Diccionario {
 		Scanner entrada = new Scanner(System.in);
 		Map<String, String> diccionario = new HashMap<>();
 		
-		diccionario.put("Perro", "Dog");
-		diccionario.put("Gato", "Cat");
-		diccionario.put("Casa", "House");
-		diccionario.put("Coche", "Car");
-		diccionario.put("Pepino", "Cucumber");
+		diccionario.put("PERRO", "Dog");
+		diccionario.put("GATO", "Cat");
+		diccionario.put("CASA", "House");
+		diccionario.put("COCHE", "Car");
+		diccionario.put("PEPINO", "Cucumber");
 		
 		System.out.println("Bienvenido al Diccionario Spanish/English!!!");
 		System.out.println("Pregúntame qué palabra quieres traducir.");
@@ -33,7 +33,7 @@ public class Ej3_Diccionario {
 		String traduccion="";
 		do {
 			System.out.println("Palabra en español: ");
-			palabra=entrada.nextLine();
+			palabra=entrada.nextLine().toUpperCase();
 			if (diccionario.containsKey(palabra)) {
 				System.out.println("En inglés se dice: "+diccionario.get(palabra));
 			} else {
