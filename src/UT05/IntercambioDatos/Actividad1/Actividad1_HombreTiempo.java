@@ -1,4 +1,4 @@
-package UT05.IntercambioDatos;
+package UT05.IntercambioDatos.Actividad1;
 
 import java.util.List;
 
@@ -22,11 +22,7 @@ public class Actividad1_HombreTiempo {
 	
 	for(String alerta : alertas) {
 		System.out.print(alerta);
-		System.out.print(",");
+		System.out.print(", ");
 	}
-	
-	
-	
-	}
-
+	} 
 }
