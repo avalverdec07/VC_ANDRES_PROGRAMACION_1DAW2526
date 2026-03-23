@@ -2,7 +2,6 @@ package UT05.IntercambioDatos.Ej3_PerfilUsuario;
 
 import com.google.gson.Gson;
 
-import UT05.IntercambioDatos.Actividad1.Prevision;
 
 public class Ej3_PerfilUsuario {
 
@@ -30,8 +29,5 @@ public class Ej3_PerfilUsuario {
 		
 		System.out.println("El objeto usuario serializado a una cadena JSon es:");
 		System.out.println(cadena);
-		
-		
 	}
-
 }
