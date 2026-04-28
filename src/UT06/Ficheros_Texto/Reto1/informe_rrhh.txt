@@ -1,0 +1,4 @@
+El gasto total en salarios es de: 13251.0 €
+El empleado con mayor Salario es: Elena Gomez con 3500.0 €
+El gasto total en salarios es de: 4.000013251E9 €
+El empleado con mayor Salario es: Fernando Alonso con 4.0E9 €

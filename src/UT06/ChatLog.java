@@ -1,4 +1,4 @@
-package UT06.Ficheros_Texto;
+package UT06;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

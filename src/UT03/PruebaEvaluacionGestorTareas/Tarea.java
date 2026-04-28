@@ -16,7 +16,7 @@ public class Tarea {
 	private double duracionHoras;
 	
 	
-	
+
 	/**
 	 * Crea una nueva tarea con nombre y categoria
 	 * Se incializacia la duración a 0

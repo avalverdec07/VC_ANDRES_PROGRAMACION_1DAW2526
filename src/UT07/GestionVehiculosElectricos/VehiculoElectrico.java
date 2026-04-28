@@ -13,11 +13,16 @@ public class VehiculoElectrico {
 	}
 	
 	public void mostrarInformacion() {
-		System.out.print("Marca: "+this.marca+" - ");
-		System.out.print("Modelo: "+this.modelo+" - ");
-		System.out.print("Autonomía: "+this.autonomia+" km. - ");
+		System.out.print("Marca: "+marca+" - ");
+		System.out.print("Modelo: "+modelo+" - ");
+		System.out.print("Autonomía: "+autonomia+" km. - ");
 	}
 	
+	@Override
+	public String toString() {
+		return "VehiculoElectrico marca=" + marca + ", modelo=" + modelo + ", autonomia=" + autonomia + "]";
+	}
+
 	public void cargar() {
 		System.out.println("Cargando vehículo eléctrico...");
 	}
